@@ -15,5 +15,13 @@ function fib(n) {
   }
   return c;
 }
-
 document.write( fib(n) ); 
+
+
+
+
+
+function fib(n) {
+  return n > 2 ? fib(n-1) + fib(n-2) : 1;
+}
+document.write( fib(n) );
