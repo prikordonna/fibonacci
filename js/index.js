@@ -8,7 +8,7 @@ function fib(n) {
   let a = 1;
   let b = 1;
   let c= 0;
-  for (var i = 3; i <= n; i++) {
+  for (let i = 3; i <= n; i++) {
     c = a + b;
     a = b;
     b = c;
@@ -19,9 +19,8 @@ document.write( fib(n) );
 
 
 
-
-
+/*
 function fib(n) {
   return n > 2 ? fib(n-1) + fib(n-2) : 1;
 }
-document.write( fib(n) );
+document.write( fib(n) ); */
